@@ -60,12 +60,12 @@ create table customer
 INSERT INTO CUSTOMER 
 (customer_id,name,phone,email,house_no,city,zipcode)
 VALUES
-(NEXTVAL('c_id_sequence'),'Mahade','01671648062','undefinedmahade@gmail.com','Q5','Dhaka','1207');
+(NEXTVAL('c_id_sequence'),'Mahade','01671648062','undefinedmahade@gmail.com','Q5','Dhaka','1207' , 'undefinedmahade' , 'undefinedmahade');
 
 INSERT INTO CUSTOMER 
 (customer_id,name,phone,email,house_no,city,zipcode)
 VALUES
-(NEXTVAL('c_id_sequence'),'Riad','0173832700','riad566@gmail.com','370/371','Dhaka','1217');
+(NEXTVAL('c_id_sequence'),'Riad','0173832700','riad566@gmail.com','370/371','Dhaka','1217' , 'riad566' , 'riad566');
 
 
 
